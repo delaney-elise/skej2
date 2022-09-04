@@ -1,0 +1,104 @@
+:root {
+  --main: #212529;
+  --second: #343a40;
+  --third: #495057;
+  --fourth: #6c757d;
+  --fifth: #adb5bd;
+  --sixth: #ced4da;
+  --seventh: #dee2e6;
+}
+
+
+.App {
+  text-align: center;
+  background: #18191f;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header {
+  background-color: #18191f;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+
+}
+
+a {
+  color: var(--seventh);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.button {
+  background-color: var(--second);
+  border-radius: 15px;
+  width: 20vw;
+  height: 5vh;
+  margin: 5px;
+}
+
+
+.create-page {
+  background-color: var(--second);
+  border-radius: 15px;
+  width: 95%;
+  height: 95%;
+  margin: 25px;
+}
+
+.create-form {
+  background-color: var(--second);
+  border-radius: 25px;
+  width: 95%;
+  height: 150%;
+  margin: 10px;
+
+}
+
+.activity-list {
+  background-color: var(--second);
+  border-radius: 25px;
+  width: 95%;
+  height: 95%;
+  margin: 10px;
+}
+
+.action-block {
+
+  background-color: val(--fifth);
+  display: inline-block;
+}
+
+.title {
+
+  margin-bottom: 5vh;
+  font-size: 4vmax;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
